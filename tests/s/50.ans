@@ -1,0 +1,26 @@
+static int A
+
+char *f(char c)
+{
+  float b
+  char c
+
+    b
+  ++
+  ;
+}
+
+int main(int argc, char **argv)
+{
+  int a
+  int argc
+  char **argv
+
+    a
+  =
+    A
+  ;
+  return
+    0
+  ;
+}

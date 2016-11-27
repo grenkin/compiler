@@ -1,0 +1,31 @@
+static int a
+static int b
+static int c
+static int d
+
+int f(int c, int d)
+{
+  int c
+  int d
+
+    c
+  =
+    d
+  ;
+}
+
+void main()
+{
+
+    f
+  (
+      a
+    =
+      b
+  ,
+      c
+    =
+      d
+  )
+  ;
+}

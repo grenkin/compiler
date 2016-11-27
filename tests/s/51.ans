@@ -1,0 +1,108 @@
+static int A
+typedef struct {
+  int x
+  int y
+} PointT
+
+char *f(char c)
+{
+  float b
+  char c
+
+    b
+  ++
+  ;
+}
+
+int main(int argc, char **argv)
+{
+  int a
+  int argc
+  char **argv
+
+    a
+  =
+    A
+  ;
+  return
+    0
+  ;
+}
+
+float sqr_distance(float x1, float y1, float x2, float y2)
+{
+  float x1
+  float x2
+  float y1
+  float y2
+
+  return
+          x2
+        -
+          x1
+      *
+          x2
+        -
+          x1
+    +
+          y2
+        -
+          y1
+      *
+          y2
+        -
+          y1
+  ;
+}
+
+float sqr_distance1(struct {
+  int x
+  int y
+} p1, struct {
+  int x
+  int y
+} p2)
+{
+  struct {
+    int x
+    int y
+  } p1
+  struct {
+    int x
+    int y
+  } p2
+
+  return
+            p2
+          .
+            x
+        -
+            p1
+          .
+            x
+      *
+            p2
+          .
+            x
+        -
+            p1
+          .
+            x
+    +
+            p2
+          .
+            y
+        -
+            p1
+          .
+            y
+      *
+            p2
+          .
+            y
+        -
+            p1
+          .
+            y
+  ;
+}

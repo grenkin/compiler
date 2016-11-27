@@ -1,0 +1,14 @@
+
+int main()
+{
+  enum_const A = 0
+  enum_const B = 1
+  enum_const C = 2
+  enum_const Z = 0
+  enum_const Z1 = 1
+  enum _C
+  enum c
+  enum c1
+  enum d
+
+}

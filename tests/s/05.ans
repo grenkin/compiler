@@ -1,0 +1,8 @@
+static int x
+static int y
+static int z
+
+void main()
+{
+
+}

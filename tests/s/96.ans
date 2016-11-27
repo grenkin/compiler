@@ -1,0 +1,39 @@
+static struct {
+  struct {
+    struct {
+      float d
+    } c
+  } b
+} a
+static struct {
+  char b
+} *a1
+static struct {
+  struct {
+    int t
+  } f
+} e
+
+int main()
+{
+
+            a
+          .
+            b
+        .
+          c
+      .
+        d
+    -
+          e
+        .
+          f
+      .
+        t
+  +
+      *
+        a1
+    .
+      b
+  ;
+}

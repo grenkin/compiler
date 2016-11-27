@@ -1,0 +1,21 @@
+
+float f()
+{
+
+}
+
+int g(float a, struct {
+  int a
+} b)
+{
+  float a
+  struct {
+    int a
+  } b
+
+}
+
+int main()
+{
+
+}

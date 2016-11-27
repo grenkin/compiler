@@ -1,0 +1,46 @@
+/*comments*/
+
+/********/
+
+/*********/ /**/ /*
+
+*/ /*
+
+*//**//*
+*//**/
+
+/*operators*/
+.,:&|^~!*/+>-<=%?
+++---><<>><=>===!=&&||*=/=%=+=-=^=|=&=
+<<=>>=...
+
+/*delimiters*/
+{}()[];
+
+/*identifiers*/
+a a_ _0 _a0 a1 xn x_n _ _t_
+
+/*keywords*/
+if else int double sizeof
+
+/*integer constants*/
+1 2 3 123 1000
+0x123 0123 0777 0xff 0xA 0xAb 0xbA 0x0
+
+/*real constants*/
+1.2 2.1 .1 1. 0. .0
+.0e5 0.e1 30.1e-5 0.30e+5 /* Note: 30e5 is not a real constant: the point is required */
+100.0E-2
+
+/*character constants*/
+'0' 'a' 'b' 'z' 'A' 'B' 'Z' ' ' '1'
+'\n' '\t' '\v' '\b' '\r' '\f' '\\' '\?' '\'' '\"'
+'\100' '\123' '\0' '\000' '\001' '\020' '\141'
+'\x12' '\x000000001' '\x00a' '\xff' '\xa' '\xc' '\x61'
+
+/*string constants*/
+"123" "abc" ""
+"stroki "" sceplyayutsya"
+"zzz1"
+"\n" "123\n" "0\n" "\'\'\'" "\"" "1\'2\'3\'4\'5\'6"
+"\\\x61\141\x62\142\x63\143\\\\abc"

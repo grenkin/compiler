@@ -1,0 +1,33 @@
+
+int fact(int n)
+{
+  int n
+
+  if (
+      n
+    ==
+      0
+  )
+    return
+      1
+    ;
+  else
+    return
+        n
+      *
+          fact
+        (
+            n
+          -
+            1
+        )
+    ;
+}
+
+void main()
+{
+  float a
+  int y
+  int z
+
+}

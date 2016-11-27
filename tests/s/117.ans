@@ -1,0 +1,108 @@
+
+int f(float x)
+{
+  float x
+  int x1
+
+}
+
+void main()
+{
+  enum_const A1 = 0
+  enum_const A2 = 1
+  enum_const A3 = 2
+  enum_const A4 = 3
+  enum_const A5 = 4
+  enum a
+  int *p
+  int x
+  float y
+
+  {
+    int x
+
+  }
+    main
+  (
+  )
+  ;
+    f
+  (
+      x
+    +
+      1
+  )
+  ;
+    f
+  (
+    y
+  )
+  ;
+    f
+  (
+      a
+    -
+      -
+        2.3
+  )
+  ;
+    f
+  (
+    -
+      1.9
+  )
+  ;
+    p
+  [
+    2
+  ]
+  ;
+    p
+  ++
+  ;
+    p
+  --
+  ;
+    x
+  ++
+  ;
+    y
+  ++
+  ;
+    x
+  --
+  ;
+    y
+  --
+  ;
+    a
+  --
+  ;
+  +
+    a
+  ;
+  -
+    a
+  ;
+  +
+    x
+  ;
+  -
+    y
+  ;
+  +
+    y
+  ;
+  ~
+    a
+  ;
+  ~
+    x
+  ;
+  !
+    p
+  ;
+  !
+    a
+  ;
+}

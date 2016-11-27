@@ -1,0 +1,21 @@
+Сравнение файлов 12_OPT\06.asm и 12_OPT\06_NOOPT.ASM
+***** 12_OPT\06.asm
+        add     eax,dword ptr 4
+        push    dword ptr ss:[eax]
+***** 12_OPT\06_NOOPT.ASM
+        add     eax,dword ptr 4
+        push    eax
+        pop     eax
+        push    dword ptr ss:[eax]
+*****
+
+***** 12_OPT\06.asm
+        add     esp,dword ptr 4
+
+***** 12_OPT\06_NOOPT.ASM
+        add     esp,dword ptr 4
+        push    dword ptr 2
+        add     esp,dword ptr 4
+
+*****
+

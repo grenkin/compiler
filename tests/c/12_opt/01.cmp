@@ -1,0 +1,11 @@
+Сравнение файлов 12_OPT\01.asm и 12_OPT\01_NOOPT.ASM
+***** 12_OPT\01.asm
+
+
+***** 12_OPT\01_NOOPT.ASM
+
+        push    dword ptr 1
+        add     esp,dword ptr 4
+
+*****
+

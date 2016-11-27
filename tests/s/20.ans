@@ -1,0 +1,5 @@
+enum_const a = 0
+enum_const b = 1
+enum_const c = 2
+enum_const d = 3
+typedef const enum e

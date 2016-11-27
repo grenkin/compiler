@@ -1,0 +1,7 @@
+typedef const int A
+static const int a
+
+int main()
+{
+
+}

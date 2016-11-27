@@ -1,0 +1,12 @@
+
+int f()
+{
+  struct {
+    int A
+  } z
+
+    z
+  .
+    A
+  ;
+}

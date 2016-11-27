@@ -1,0 +1,18 @@
+static char *const S
+enum_const a = 0
+static int *const (*abc[5])[1]
+enum_const b = 1
+enum_const c = 2
+enum_const d = 3
+typedef const enum ***const *e[4]
+static char *s
+static int x
+
+char f(int A, float a, char c, int **pp)
+{
+  int A
+  float a
+  char c
+  int **pp
+
+}

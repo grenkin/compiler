@@ -1,0 +1,12 @@
+
+void main()
+{
+  float *a[3]
+  float (*b)[7]
+  int ***c[17]
+  int **f
+  int (*f1)(int a, int b)
+  int (*f2)()
+  char *s
+
+}

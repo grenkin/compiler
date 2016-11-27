@@ -1,0 +1,21 @@
+Сравнение файлов 12_OPT\11.asm и 12_OPT\11_NOOPT.ASM
+***** 12_OPT\11.asm
+        fmul
+        fld     dword ptr ss:[esp]
+***** 12_OPT\11_NOOPT.ASM
+        fmul
+        sub     esp,dword ptr 4
+        fstp    dword ptr ss:[esp]
+        fld     dword ptr ss:[esp]
+*****
+
+***** 12_OPT\11.asm
+        add     esp,dword ptr 4
+        fsub
+***** 12_OPT\11_NOOPT.ASM
+        add     esp,dword ptr 4
+        fld     dword ptr ss:[esp]
+        add     esp,dword ptr 4
+        fsub
+*****
+

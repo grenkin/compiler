@@ -1,0 +1,31 @@
+static int a
+enum_const a1 = 0
+enum_const b = 1
+enum_const c = 2
+enum_const d = 3
+static int x
+static int y
+
+int e(enum A, enum d)
+{
+  enum A
+  enum d
+
+}
+
+int f(int x)
+{
+  int x
+
+}
+
+int g(float y)
+{
+  float y
+
+}
+
+int main()
+{
+
+}

@@ -1,0 +1,47 @@
+typedef struct {
+  float t
+  int x
+  int y
+  int z
+} *(***P[3])(int )
+static struct {
+  float t
+  int x
+  int y
+  int z
+} a
+static struct {
+  float t
+  int x
+  int y
+  int z
+} b
+
+int main()
+{
+  struct {
+    float t
+    int x
+    int y
+    int z
+  } a
+  struct {
+    float t
+    int x
+    int y
+    int z
+  } *(***p1[3])(int )
+  struct {
+    float t
+    int x
+    int y
+    int z
+  } *(***p2[3])(int )
+  struct {
+    float t
+    int x
+    int y
+    int z
+  } *(***p3[3])(int )
+
+}

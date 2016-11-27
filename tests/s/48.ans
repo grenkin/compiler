@@ -1,0 +1,11 @@
+
+int main()
+{
+  struct {
+    int x
+  } A
+  struct {
+    int x
+  } B
+
+}

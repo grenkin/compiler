@@ -1,0 +1,2 @@
+static int (*f)(float x, int y)
+static int (**g)(int z)

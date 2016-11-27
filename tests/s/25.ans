@@ -1,0 +1,20 @@
+static struct {
+  float a
+  float b
+  char c
+  float c1
+  float d
+  int x1
+  int y1
+  float z1
+} t1
+static struct {
+  float a
+  float b
+  char c
+  float c1
+  float d
+  int x1
+  int y1
+  float z1
+} *(*(**t2[5][4])(int ))()

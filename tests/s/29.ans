@@ -1,0 +1,14 @@
+
+int main()
+{
+  struct {
+    int y
+  } c
+
+  {
+    struct {
+      int x
+    } b
+
+  }
+}

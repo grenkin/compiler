@@ -1,0 +1,30 @@
+enum_const A1 = 0
+enum_const A2 = 1
+enum_const A3 = 2
+typedef enum Enum1
+typedef struct {
+  float x
+  float y
+} PointT
+static int (*f1)(struct {
+  float x
+  float y
+} , enum )
+
+int f(struct {
+  float x
+  float y
+} p, enum q)
+{
+  struct {
+    float x
+    float y
+  } p
+  enum q
+
+}
+
+void main()
+{
+
+}

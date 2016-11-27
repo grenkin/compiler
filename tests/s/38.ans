@@ -1,0 +1,12 @@
+
+int main()
+{
+  int a
+  typedef int arr_int[5]
+  char b
+  float *c
+  int d[5]
+  int *d1[5]
+  int *d2[5][3]
+
+}

@@ -1,0 +1,23 @@
+enum_const A = 0
+enum_const B = 1
+enum_const C = 2
+static int a
+static char b
+static float c
+static enum d
+static struct {
+  int a
+  int b
+  int c
+  float d
+  float f
+  struct {
+    int e
+    int z
+  } z
+} e
+
+int main()
+{
+
+}

@@ -1,0 +1,19 @@
+
+int f(float x, int y)
+{
+  float x
+  int y
+
+    f
+  (
+    x
+  ,
+    y
+  )
+  ;
+}
+
+void main()
+{
+
+}

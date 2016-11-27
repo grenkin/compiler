@@ -1,0 +1,7 @@
+
+int f(int t, int (*g)(char ))
+{
+  int (*g)(char )
+  int t
+
+}

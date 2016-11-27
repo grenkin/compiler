@@ -1,0 +1,3 @@
+Types error
+The operand must be lvalue or an object of type "function"
+line 5, pos 9

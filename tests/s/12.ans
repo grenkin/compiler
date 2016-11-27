@@ -1,0 +1,11 @@
+typedef int arr_int[5]
+
+int main(int argc, char **argv)
+{
+  int argc
+  char **argv
+  int (*x[5])(char )
+  int (*y[5])()
+  int (**z[5])(int *p)
+
+}

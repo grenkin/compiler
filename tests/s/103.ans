@@ -1,0 +1,12 @@
+
+void main()
+{
+  struct {
+    int b
+  } a
+
+    a
+  .
+    b
+  ;
+}

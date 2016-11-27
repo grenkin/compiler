@@ -1,0 +1,79 @@
+Сравнение файлов 12_OPT\10.asm и 12_OPT\10_NOOPT.ASM
+***** 12_OPT\10.asm
+        push    eax
+        mov     eax,@@l$x
+        inc     eax
+        mov     ebx,eax
+        pop     eax
+***** 12_OPT\10_NOOPT.ASM
+        push    eax
+        push    dword ptr 1
+        push    @@l$x
+        pop     eax
+        pop     ebx
+        add     eax,ebx
+        push    eax
+        pop     ebx
+        pop     eax
+*****
+
+***** 12_OPT\10.asm
+        mov     dword ptr ss:[eax],ebx
+        mov     eax,ebp
+***** 12_OPT\10_NOOPT.ASM
+        mov     dword ptr ss:[eax],ebx
+        push    ebx
+        add     esp,dword ptr 4
+        mov     eax,ebp
+*****
+
+***** 12_OPT\10.asm
+        push    eax
+        mov     eax,@@l$x
+        dec     eax
+        mov     ebx,eax
+        pop     eax
+***** 12_OPT\10_NOOPT.ASM
+        push    eax
+        push    dword ptr 1
+        push    @@l$x
+        pop     eax
+        pop     ebx
+        sub     eax,ebx
+        push    eax
+        pop     ebx
+        pop     eax
+*****
+
+***** 12_OPT\10.asm
+        mov     dword ptr ss:[eax],ebx
+        mov     eax,ebp
+***** 12_OPT\10_NOOPT.ASM
+        mov     dword ptr ss:[eax],ebx
+        push    ebx
+        add     esp,dword ptr 4
+        mov     eax,ebp
+*****
+
+***** 12_OPT\10.asm
+        add     eax,dword ptr 4
+        mov     ebx,@@l$x
+        mov     dword ptr ss:[eax],ebx
+
+***** 12_OPT\10_NOOPT.ASM
+        add     eax,dword ptr 4
+        push    eax
+        push    dword ptr 1
+        push    @@l$x
+        pop     eax
+        pop     ebx
+        imul    eax,ebx
+        push    eax
+        pop     ebx
+        pop     eax
+        mov     dword ptr ss:[eax],ebx
+        push    ebx
+        add     esp,dword ptr 4
+
+*****
+

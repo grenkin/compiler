@@ -1,0 +1,41 @@
+
+void main()
+{
+  int *px
+  float *pz
+  int x
+  int y
+  float z
+
+    px
+  =
+    &
+      x
+  ;
+    pz
+  =
+    &
+      z
+  ;
+    z
+  =
+      z
+    +
+      x
+  ;
+    z
+  =
+      z
+    +
+      z
+  ;
+    x
+  ++
+  ;
+  --
+    y
+  ;
+  return
+    0
+  ;
+}

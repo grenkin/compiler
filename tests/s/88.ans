@@ -1,0 +1,28 @@
+
+void main()
+{
+  struct {
+    int p
+    int q
+  } *ps
+
+      *
+        ps
+    .
+      p
+  =
+      *
+        ps
+    .
+      q
+  ;
+    ps
+  ,
+    ps
+  ,
+    ps
+  ;
+  return
+    0
+  ;
+}
